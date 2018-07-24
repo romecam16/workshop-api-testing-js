@@ -1,0 +1,28 @@
+{
+  "name": "workshop-api-testing",
+  "version": "1.0.0",
+  "description": "This is a Workshop about API Testing in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romecam16/workshop-api-testing-js.git"
+  },
+  "keywords": [
+    "api-testing",
+    "dojo",
+    "practice"
+  ],
+  "author": "Camilo Romero <romecam16@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romecam16/workshop-api-testing-js/issues"
+  },
+  "homepage": "https://github.com/romecam16/workshop-api-testing-js#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}

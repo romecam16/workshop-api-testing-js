@@ -81,5 +81,6 @@ it('Consume  PATCH Service with query parameters', () => {
       expect(response.status).to.equal(statusCode.OK);
       expect(response.body.args).to.eql(query);
       expect(response.body).to.have.property('origin')
+      expect(response.body).to.have.property('url')
     });
 });
